@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Dra. Maria Ferreira - Psicologia Clínica & Psicoterapia em São Paulo e Online. Atendimento acolhedor para ansiedade, autoestima, depressão e desenvolvimento pessoal. CRP 06/184920.">
+  <meta name="keywords"
+    content="psicóloga, terapia online, psicoterapia, ansiedade, burnout, autoestima, psicóloga São Paulo, Terapia Cognitivo Comportamental">
+  <meta name="author" content="Dra. Maria Ferreira Psicologia">
+  <title>Dra. Maria Ferreira | Psicologia Clínica & Psicoterapia Online e Presencial</title>
+
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon SVG Embutido -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       1. CABEÇALHO / NAVEGAÇÃO STICKY
+       ========================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo" aria-label="Página inicial Dra. Maria Ferreira">
+        <div class="logo-icon">
+          <!-- Ícone de Folha/Ramo em SVG -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+          </svg>
+        </div>
+        <div class="logo-text">
+          Dra. Maria Ferreira
+          <span>Psicologia Clínica</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#sobre" class="nav-link">Sobre Mim</a>
+        <a href="#tratamentos" class="nav-link">Tratamentos</a>
+        <a href="#metodologia" class="nav-link">Como Funciona</a>
+        <a href="#faq" class="nav-link">Dúvidas</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contato" class="btn btn-primary" style="padding: 0.65rem 1.35rem; font-size: 0.9rem;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+            <line x1="16" x2="16" y1="2" y2="6" />
+            <line x1="8" x2="8" y1="2" y2="6" />
+            <line x1="3" x2="21" y1="10" y2="10" />
+          </svg>
+          Agendar Consulta
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. HERO SECTION
+       ========================================================================== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badges">
+          <span class="badge-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+            CRP 06/184920
+          </span>
+          <span class="badge-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+              <path d="M2 12h20" />
+            </svg>
+            Atendimento Online & Presencial
+          </span>
+        </div>
+
+        <h1 class="hero-title">
+          Um espaço seguro para transformar sua <span>saúde emocional</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Psicoterapia humanizada e embasada pela Terapia Cognitivo-Comportamental. Auxilio você a superar a ansiedade,
+          resgatar a autoconfiança e alcançar um equilíbrio emocional duradouro.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="https://wa.me/5511940028922?text=Ol%C3%A1%2C%20Dra.%20Maria!%20Gostaria%20de%20agendar%20uma%20primeira%20sess%C3%A3o%20de%20psicoterapia."
+            target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+            <!-- Ícone do WhatsApp em SVG -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-0.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+            </svg>
+            Agendar pelo WhatsApp
+          </a>
+
+          <a href="#sobre" class="btn btn-outline">
+            Conhecer Abordagem
+          </a>
+        </div>
+
+        <div class="hero-features">
+          <div class="hero-feature-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            Sigilo Absoluto
+          </div>
+          <div class="hero-feature-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            Horários Flexíveis
+          </div>
+          <div class="hero-feature-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            Ambiente Acolhedor
+          </div>
+        </div>
+      </div>
+
+      <!-- FOTO DO CONSULTÓRIO / PSICÓLOGA -->
+      <div class="hero-image-wrapper">
+        <div class="hero-image-card">
+          <img src="psicologa.png" alt="Dra. Maria Ferreira em seu consultório de psicologia" width="440" height="520">
+        </div>
+
+        <!-- CARTÃO FLUTUANTE DE AVALIAÇÃO / QUALIDADE -->
+        <div class="hero-floating-card">
+          <div class="floating-icon">🌱</div>
+          <div class="floating-text">
+            <strong>Atendimento Humanizado</strong>
+            <span>Mais de 1.500 sessões realizadas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. FAIXA DE ESTATÍSTICAS / DESTAQUES
+       ========================================================================== -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">+10 Anos</div>
+        <div class="stat-label">De experiência clínica</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">+1.500</div>
+        <div class="stat-label">Pacientes acolhidos</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Sigilo e Ética Profissional</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">4.9 / 5.0</div>
+        <div class="stat-label">Avaliação de Acolhimento</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. SEÇÃO SOBRE A PSICÓLOGA
+       ========================================================================== -->
+  <section id="sobre" class="about">
+    <div class="container about-grid">
+      <div class="about-image-wrapper">
+        <div class="about-image-frame">
+          <img src="psicologa.png" alt="Dra. Maria Ferreira - Psicóloga Clínica">
+        </div>
+        <div class="crp-badge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          </svg>
+          Membro Ativo do CFP / CRP-06
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="section-tag">Apresentação</span>
+        <h2 class="section-title">Olá, sou a <span>Dra. Maria Ferreira</span></h2>
+
+        <div class="about-quote">
+          "Acredito que o autoconhecimento é o caminho mais seguro para libertar-se de velhos padrões e construir uma
+          vida com leveza e propósito."
+        </div>
+
+        <div class="about-text">
+          <p>
+            Sou psicóloga clínica com especialização em Terapia Cognitivo-Comportamental (TCC) e pós-graduada em Saúde
+            Mental. Há mais de uma década, venho dedicando minha carreira a auxiliar jovens e adultos a compreenderem
+            suas emoções, superarem momentos de crise e desenvolverem estratégias saudáveis para enfrentar os desafios
+            da vida diária.
+          </p>
+          <p>
+            Meu trabalho é focado em criar um ambiente seguro, empático e livre de julgamentos, onde você possa se
+            expressar com total liberdade e construir ferramentas sólidas para o seu bem-estar diário.
+          </p>
+        </div>
+
+        <div class="about-bullets">
+          <div class="about-bullet-item">
+            <div class="about-bullet-icon">✓</div>
+            <span>Especialista em Terapia Cognitivo-Comportamental (USP)</span>
+          </div>
+          <div class="about-bullet-item">
+            <div class="about-bullet-icon">✓</div>
+            <span>Formação em Gestão da Ansiedade e Estresse</span>
+          </div>
+          <div class="about-bullet-item">
+            <div class="about-bullet-icon">✓</div>
+            <span>Atendimento para Adultos e Adolescentes (16+)</span>
+          </div>
+          <div class="about-bullet-item">
+            <div class="about-bullet-icon">✓</div>
+            <span>Sessões Presenciais e por Videochamada Segura</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. SEÇÃO TRATAMENTOS E ESPECIALIDADES
+       ========================================================================== -->
+  <section id="tratamentos" class="treatments">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Áreas de Atuação</span>
+        <h2 class="section-title">Como posso te <span>ajudar</span>?</h2>
+        <p class="section-description">
+          Ofereço tratamentos estruturados e personalizados para diferentes momentos da vida emocional. Confira as
+          principais áreas de atendimento:
+        </p>
+      </div>
+
+      <div class="treatments-grid">
+        <!-- Card 1: Ansiedade e Burnout -->
+        <article class="treatment-card">
+          <div class="treatment-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+            </svg>
+          </div>
+          <h3 class="treatment-title">Ansiedade & Burnout</h3>
+          <p class="treatment-text">
+            Manejo da agitação mental, crises de pânico, pensamentos acelerados e exaustão profissional através de
+            técnicas de regulação emocional e mindfulness.
+          </p>
+          <a href="#contato" class="treatment-link">
+            Saber mais
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </article>
+
+        <!-- Card 2: Depressão -->
+        <article class="treatment-card">
+          <div class="treatment-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+          </div>
+          <h3 class="treatment-title">Depressão & Humor</h3>
+          <p class="treatment-text">
+            Reconstrução do interesse pela vida, superação da tristeza profunda, desânimo constante e resgate do prazer
+            nas atividades diárias.
+          </p>
+          <a href="#contato" class="treatment-link">
+            Saber mais
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </article>
+
+        <!-- Card 3: Autoestima -->
+        <article class="treatment-card">
+          <div class="treatment-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+              <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+            </svg>
+          </div>
+          <h3 class="treatment-title">Autoestima & Autoconfiança</h3>
+          <p class="treatment-text">
+            Desenvolvimento de amor-próprio, imposição de limites saudáveis, superação da síndrome da impostora e
+            diminuição da autocrítica destrutiva.
+          </p>
+          <a href="#contato" class="treatment-link">
+            Saber mais
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </article>
+
+        <!-- Card 4: Relacionamentos -->
+        <article class="treatment-card">
+          <div class="treatment-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3 class="treatment-title">Relacionamentos & Conflitos</h3>
+          <p class="treatment-text">
+            Melhoria na comunicação interpessoal, superação de término afetivo, dependência emocional e resolução de
+            conflitos familiares ou de casal.
+          </p>
+          <a href="#contato" class="treatment-link">
+            Saber mais
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </article>
+
+        <!-- Card 5: Transições de Vida -->
+        <article class="treatment-card">
+          <div class="treatment-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 2 7 12 12 22 7 12 2" />
+              <polyline points="2 17 12 22 22 17" />
+              <polyline points="2 12 12 17 22 12" />
+            </svg>
+          </div>
+          <h3 class="treatment-title">Transições de Carreira & Vida</h3>
+          <p class="treatment-text">
+            Apoio emocional durante mudanças significativas: transição de carreira, maternidade/paternidade, luto ou
+            adaptação em novas cidades.
+          </p>
+          <a href="#contato" class="treatment-link">
+            Saber mais
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </article>
+
+        <!-- Card 6: Terapia Online -->
+        <article class="treatment-card">
+          <div class="treatment-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="14" x="2" y="3" rx="2" />
+              <line x1="8" x2="16" y1="21" y2="21" />
+              <line x1="12" x2="12" y1="17" y2="21" />
+            </svg>
+          </div>
+          <h3 class="treatment-title">Terapia Online Global</h3>
+          <p class="treatment-text">
+            Atendimento psicológico remoto com total flexibilidade e sigilo absoluto via plataforma criptografada. Ideal
+            para quem mora no exterior ou tem rotina corrida.
+          </p>
+          <a href="#contato" class="treatment-link">
+            Saber mais
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. METODOLOGIA / COMO FUNCIONA
+       ========================================================================== -->
+  <section id="metodologia" class="methodology">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Passo a Passo</span>
+        <h2 class="section-title">Como funciona o <span>processo terapêutico</span>?</h2>
+        <p class="section-description">
+          Dar o primeiro passo pode parecer difícil, mas o processo é simples e transparente do início ao fim:
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3 class="step-title">Primeiro Contato</h3>
+          <p class="step-text">
+            Você envia uma mensagem pelo WhatsApp ou formulário. Esclarecemos suas dúvidas iniciais e alinhamos o melhor
+            horário para seu atendimento.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3 class="step-title">Sessão de Avaliação</h3>
+          <p class="step-text">
+            Na primeira conversa, ouvimos suas queixas principias, história de vida e alinhamos seus objetivos em um
+            ambiente totalmente acolhedor.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3 class="step-title">Plano Personalizado</h3>
+          <p class="step-text">
+            Iniciamos o acompanhamento semanal com técnicas comprovadas da TCC para ajudar você a atingir a estabilidade
+            emocional e autoconhecimento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. DÚVIDAS FREQUENTES (FAQ COM ACCORDION PURE HTML/CSS)
+       ========================================================================== -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Esclarecimentos</span>
+        <h2 class="section-title">Perguntas <span>Frequentes</span></h2>
+        <p class="section-description">
+          Tire suas dúvidas sobre o formato de atendimento, duração das sessões e convênio.
+        </p>
+      </div>
+
+      <div class="faq-wrapper">
+        <div class="faq-item">
+          <details open>
+            <summary>Qual é a duração de cada sessão de terapia?</summary>
+            <div class="faq-content">
+              Cada sessão possui duração de aproximadamente 50 minutos. As consultas ocorrem com frequência semanal,
+              podendo ser ajustadas de acordo com a necessidade do paciente ao longo do tratamento.
+            </div>
+          </details>
+        </div>
+
+        <div class="faq-item">
+          <details>
+            <summary>Como funciona a terapia online? É tão eficaz quanto a presencial?</summary>
+            <div class="faq-content">
+              Sim! Diversos estudos científicos comprovam que a terapia online possui exatamente a mesma eficácia da
+              presencial. É realizada através de uma sala virtual privativa e segura, exigindo apenas que você esteja em
+              um local reservado com boa conexão à internet.
+            </div>
+          </details>
+        </div>
+
+        <div class="faq-item">
+          <details>
+            <summary>Você atende por plano de saúde ou convênio?</summary>
+            <div class="faq-content">
+              Os atendimentos são exclusivamente particulares. Contudo, emito nota fiscal e relatório de atendimento
+              para que você solicite o **reembolso parcial ou integral** junto ao seu plano de saúde (Bradesco,
+              SulAmérica, Amil, Porto Seguro, entre outros).
+            </div>
+          </details>
+        </div>
+
+        <div class="faq-item">
+          <details>
+            <summary>Como sei se realmente preciso de terapia neste momento?</summary>
+            <div class="faq-content">
+              Se você percebe que a ansiedade, a tristeza, o cansaço mental ou dificuldades nos relacionamentos estão
+              afetando sua qualidade de vida, a terapia é altamente recomendada. Você não precisa estar em uma crise
+              profunda para buscar ajuda professional.
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. CONTATO E FORMULÁRIO DE AGENDAMENTO
+       ========================================================================== -->
+  <section id="contato" class="contact">
+    <div class="container contact-grid">
+
+      <!-- CARTÃO DE INFORMAÇÕES -->
+      <div class="contact-info-card">
+        <h2 class="contact-info-title">Vamos conversar?</h2>
+        <p class="contact-info-desc">
+          Agende sua consulta ou tire suas dúvidas diretamente com a Dra. Maria. Atendimento ágil e atencioso.
+        </p>
+
+        <div class="contact-detail-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <strong>Telefone / WhatsApp</strong>
+            <p><a href="https://wa.me/5511940028922" target="_blank" rel="noopener noreferrer">(11) 99999-8888</a></p>
+          </div>
+        </div>
+
+        <div class="contact-detail-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <strong>E-mail Profissional</strong>
+            <p><a href="mailto:contato@dramariaferreira.com.br">contato@dramariaferreira.com.br</a></p>
+          </div>
+        </div>
+
+        <div class="contact-detail-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <strong>Consultório Presencial</strong>
+            <p>Av. Paulista, 1842 - Cj 84, Bela Vista<br>São Paulo - SP (Próximo ao Metrô Trianon-Masp)</p>
+          </div>
+        </div>
+
+        <div class="contact-detail-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <strong>Horário de Atendimento</strong>
+            <p>Segunda a Sexta: 08:00 às 20:00<br>Sábados: 08:00 às 13:00</p>
+          </div>
+        </div>
+
+        <div class="whatsapp-box">
+          <p>Prefere agendamento imediato pelo celular?</p>
+          <a href="https://wa.me/5511940028922?text=Ol%C3%A1%2C%20Dra.%20Maria!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20hor%C3%A1rios%20dispon%C3%ADveis."
+            target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+            Conversar no WhatsApp Agora
+          </a>
+        </div>
+      </div>
+
+      <!-- FORMULÁRIO DE CONTATO EM HTML PURO -->
+      <div class="contact-form-card">
+        <h3 class="form-title">Envie uma Mensagem</h3>
+        <p class="form-subtitle">Preencha o formulário abaixo e entrarei em contato em até 24 horas.</p>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <!-- Chave de Acesso Web3Forms -->
+          <input type="hidden" name="access_key" value="2a2f02df-5c3a-4039-8f34-8bc0146361ce">
+          <input type="hidden" name="subject" value="Novo Contato - Site Dra. Maria Ferreira">
+          <input type="hidden" name="from_name" value="Consultório Dra. Maria Ferreira">
+
+          <div class="form-group">
+            <label for="nome" class="form-label">Nome Completo *</label>
+            <input type="text" id="nome" name="name" class="form-control" placeholder="Seu nome completo" required>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label for="email" class="form-label">E-mail *</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="seuemail@exemplo.com"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="telefone" class="form-label">Telefone / WhatsApp *</label>
+              <input type="tel" id="telefone" name="phone" class="form-control" placeholder="(11) 99999-9999" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="modalidade" class="form-label">Modalidade de Interesse</label>
+            <select id="modalidade" name="modalidade" class="form-control">
+              <option value="Terapia Online (Videochamada)">Terapia Online (Videochamada)</option>
+              <option value="Terapia Presencial (Av. Paulista)">Terapia Presencial (Av. Paulista)</option>
+              <option value="Tenho dúvidas sobre qual escolher">Tenho dúvidas sobre qual escolher</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mensagem" class="form-label">Como posso te ajudar? *</label>
+            <textarea id="mensagem" name="message" class="form-control"
+              placeholder="Descreva brevemente o motivo da sua busca por atendimento..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.05rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
+            Enviar Mensagem
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. RODAPÉ (FOOTER) COM AVISO ÉTICO CFP
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text-footer">Dra. Maria Ferreira</span>
+          <p>Psicologia Clínica focada no desenvolvimento do autoconhecimento, equilíbrio emocional e saúde mental
+            preventiva.</p>
+          <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--accent-light);">
+            CRP 06/184920 | Conselho Regional de Psicologia SP
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Links Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="#sobre">Sobre a Psicóloga</a></li>
+            <li><a href="#tratamentos">Tratamentos</a></li>
+            <li><a href="#metodologia">Como Funciona</a></li>
+            <li><a href="#faq">Perguntas Frequentes</a></li>
+            <li><a href="#contato">Agendar Consulta</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Atendimento</h4>
+          <ul class="footer-links">
+            <li>Terapia Presencial em São Paulo</li>
+            <li>Terapia Online para todo o Brasil</li>
+            <li>Atendimento Internacional (Brasileiros no exterior)</li>
+            <li>Emissão de Recibos para Reembolso</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- AVISO ÉTICO E DE EMERGÊNCIA CONFORME REGULAMENTAÇÃO CFP -->
+      <div class="ethics-notice">
+        <strong>Aviso Importante & Emergências:</strong> Este site não realiza atendimento imediato de emergência
+        psicológica ou suporte para crises graves ou de risco de vida. Se você estiver passando por uma crise grave,
+        entre em contato imediatamente com o <strong>CVV (Centro de Valorização da Vida)</strong> pelo telefone
+        <strong>188</strong> (ligação gratuita 24h) ou procure o pronto-socorro mais próximo.
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Dra. Maria Ferreira - Psicologia Clínica. Todos os direitos reservados. Desenvolvido em HTML &
+          CSS Puros.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
